@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+.next-page-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff0000; /* red color */
+  border: none;
+  border-radius: 20px; /* cylindrical shape */
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff; /* white text color */
+  cursor: pointer;
+}
+
+.next-page-btn:hover {
+  background-color: #cc0000; /* darker red on hover */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/36/919/828/space-stars-nebula-wallpaper-preview.jpg");
+    background-position: center center;
+    background-size: cover; /* updated */
+  }
+
+.paper {
+    position: absolute;
+  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
+  background-size: 500px;
+  background-position: center center;
+  padding: 20px 100px;
+/*  min-width: 800px; */
+  
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  
+  position: absolute;
+}
+
+
+
+.paper.image {
+  padding: 10px;
+}
+.paper.image p {
+  font-size: 30px;
+}
+
+img {
+  max-height: 200px;
+  width: 100%;
+  user-select: none;
+}
+
+
+p {
+  font-family: 'Zeyada';
+  font-size: 50px;
+  color: rgb(0,0,100);
+  opacity: 0.75;
+  user-select: none;
+  
+ filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+}
